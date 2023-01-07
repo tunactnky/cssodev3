@@ -1,0 +1,143 @@
+/* Sign in button */
+
+.button {
+    background-color: #1a73e8; 
+    color: #fff; 
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 69.34px; 
+    height: 30px;
+    letter-spacing: 0.25px;
+    font-size: 13px;
+    font-weight: 500;   
+    font-family: Arial, sans-serif; 
+  }
+
+  .button:hover {
+    background-color: #4285f4;
+       
+  } 
+  
+  .button:active {
+    background-color: #4285f4;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    
+  }
+
+  /* App button */
+
+  .button2 {
+    background-color: brown; 
+    color: black; 
+    border: 5px solid transparent;
+    border-radius: 50%;
+    width: 50px; 
+    height: 36px;
+    margin-left: 25px;
+  }
+  
+  
+  .button2:hover {background-color: brown}
+  
+  .button2:active {
+    background-color: black;
+    transform: translateY(4px);
+  }
+
+  /* Google Search button */
+
+button[type="text"]
+{
+  border: 1px solid #f2f2f2 ;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  color: #5f6368;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  height: 36px;
+}
+
+button[type="text"]:hover{
+ 
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+
+  .a2{
+    text-decoration: none;
+    color: inherit; 
+    font-family: Roboto,Arial,sans-serif; 
+    font-size: 13px;
+  }
+
+
+  .maincontainer{
+    width: 1920px;
+    height: 804px;
+    margin: 0;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    
+  }
+
+  .container1
+  {
+    width: 1920px;
+    height: 48px;
+    
+  }
+
+
+.container2
+{
+  width: 1920px;
+  height: 92px;
+  text-align: center;
+  margin-top: 185px;
+}
+
+
+.container3{
+  width: 1920px; 
+  height: 160px;
+}
+
+.container4{
+  width: 1920px; 
+  height: 40px;
+  background-color: #f2f2f2 ;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  
+}
+
+.container4 > ul {
+  display: flex;
+ 
+  
+}
+
+
+.container4 a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+.container4 a:hover{
+  text-decoration: underline;
+}
+
+
